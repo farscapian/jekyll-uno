@@ -1,19 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: Derek Smith
+description: aka farscapian
+url: 'http://www.farscapian.com'
+#baseurl: '/jekyll-uno'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
-
+  name: 'Derek Smith'
+  email: derek@farscapian.com
+  twitter_username: farscapian
+  github_username: farscapian
+  keybase_username: farscapian
+  
 defaults:
   -
     scope:

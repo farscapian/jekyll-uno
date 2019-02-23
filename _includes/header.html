@@ -37,26 +37,6 @@
               </li>
             {% endif %}
 
-            {% if site.author.facebook_username %}
-              <!-- Facebook -->
-              <li class="navigation__item">
-                <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.author.linkedin_username %}
-              <!-- LinkedIn -->
-              <li class="navigation__item">
-                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <i class="icon icon-social-linkedin"></i>
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-            {% endif %}
-
             {% if site.author.github_username %}
               <!-- GitHub -->
               <li class="navigation__item">
@@ -66,6 +46,16 @@
                 </a>
               </li>
             {% endif %}
+
+            {% if site.author.keybase_username %}
+            <!-- GitHub -->
+            <li class="navigation__item">
+              <a href="https://keybase/{{ site.author.keybase_username }}" title="{{ site.author.keybase_username }} on Keybase" target="_blank">
+                <i class="icon icon-social-keybase"></i>
+                <span class="label">Keybase</span>
+              </a>
+            </li>
+          {% endif %}
 
             {% if site.author.email %}
               <!-- Email -->
