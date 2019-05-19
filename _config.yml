@@ -11,7 +11,7 @@ author:
   twitter_username: farscapian
   github_username: farscapian
   keybase_username: farscapian
-  gpg: assets/gpg.asc
+  gpg: assets/farscapian_gpg_pubkey.asc
   
 defaults:
   -
